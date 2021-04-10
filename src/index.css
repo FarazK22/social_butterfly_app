@@ -34,7 +34,7 @@ html,
 }
 
 .navbar-light {
-  background-color: #ffffff;
+  background-color: #ece5e5;
   box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
 }
 
@@ -48,38 +48,38 @@ html,
 .auth-inner {
   width: 450px;
   margin: auto;
-  background: #ffffff;
-  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  background: #b8b2b2;
+  box-shadow: 0px 14px 80px rgba(67, 71, 151, 0.2);
   padding: 40px 55px 45px 55px;
   border-radius: 15px;
   transition: all .3s;
 }
 
 .auth-wrapper .form-control:focus {
-  border-color: #167bff;
+  border-color: #ffffff;
   box-shadow: none;
 }
 
 .auth-wrapper h3 {
-  text-align: center;
+  text-align: left;
   margin: 0;
   line-height: 1;
   padding-bottom: 20px;
 }
 
 .custom-control-label {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .forgot-password,
 .forgot-password a {
   text-align: right;
-  font-size: 13px;
+  font-size: 18;
   padding-top: 10px;
-  color: #7f7d7d;
+  color: #080808;
   margin: 0;
 }
 
 .forgot-password a {
-  color: #167bff;
+  color: #003b88;
 }
