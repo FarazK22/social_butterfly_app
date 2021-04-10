@@ -4,4 +4,9 @@ h1 {
 
 p {
   font-size: 24px;
+  color: #e09;
+}
+
+.background {
+  background-color: #ece5e5;
 }
