@@ -1,10 +1,12 @@
-import React from 'react';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import logo from './logo.svg';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Login from "./Components/Login";
 import SignUp from "./Components/SignUp";
+import LandingPage from "./Components/LandingPage";
+
 
 function App() {
   return (<Router>
@@ -31,6 +33,7 @@ function App() {
             <Route exact path='/' component={Login} />
             <Route path="/sign-in" component={Login} />
             <Route path="/sign-up" component={SignUp} />
+            <Route path="/landing-page" component={LandingPage} />
           </Switch>
         </div>
       </div>
