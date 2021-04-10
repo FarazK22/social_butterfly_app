@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Counter from './Components/Counter'
+import SignUp from './Components/SignUp'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <Counter></Counter>
+      <SignUp></SignUp>
     </div>
   );
 }
