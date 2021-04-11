@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
-import faraz from "./tokyobackground.jpg";
+import faraz from "./JACKIE.jpg";
 
 import zion from "./ZION.jpg";
 import kyle from "./GOAT.jpg";
@@ -41,6 +41,7 @@ class LandingPage extends Component {
                   <Card
                     bg='dark'
                     text='white'
+                    font= ''
                     style={{ width: '18rem' }}
                     className="mb-2"
                   >
@@ -67,8 +68,7 @@ class LandingPage extends Component {
                           <Card.Body>
                             <Card.Title>Zion Williamson</Card.Title>
                             <Card.Text>
-                              ioasjodijadoj
-                              
+                              Zion is interested in Music and Travelling
                             </Card.Text>
                           </Card.Body>
                           <ListGroup className="list-group-flush">
@@ -86,8 +86,7 @@ class LandingPage extends Component {
                           <Card.Body>
                             <Card.Title>Stephen Curry</Card.Title>
                             <Card.Text>
-                              This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
+                             Stephen is interested in Sports
                             </Card.Text>
                           </Card.Body>
                           <ListGroupItem>Facebook</ListGroupItem>
@@ -102,12 +101,11 @@ class LandingPage extends Component {
                           <Card.Body>
                             <Card.Title>Alexander Caruso</Card.Title>
                             <Card.Text>
-                              This is a wider card with supporting text below as a natural lead-in to
-                              additional content. 
+                              Alex is interested in Travelling
                         </Card.Text>
                           </Card.Body>
 
-                          <ListGroupItem>Facebook</ListGroupItem>
+                            <ListGroupItem>Facebook</ListGroupItem>
                             <ListGroupItem>Instagram</ListGroupItem>
                             <ListGroupItem>Twitter</ListGroupItem>
                           <Card.Footer>
@@ -129,7 +127,7 @@ class LandingPage extends Component {
                           <Card.Body>
                             <Card.Title>Kyle Lowry</Card.Title>
                             <Card.Text>
-                              This is a wider card with supporting text below as a nat
+                              Kyle is interested in Music and Sports
                       </Card.Text>
                           </Card.Body>
                           <ListGroupItem>Facebook</ListGroupItem>
@@ -144,8 +142,7 @@ class LandingPage extends Component {
                           <Card.Body>
                             <Card.Title>Lebron James</Card.Title>
                             <Card.Text>
-                              This card has supporting text below as a natural lead-in to additional
-                              content.{' '}
+                              Lebron is interested in Music, Sports, and Travelling
                             </Card.Text>
                           </Card.Body>
                           <ListGroupItem>Facebook</ListGroupItem>
@@ -160,7 +157,7 @@ class LandingPage extends Component {
                           <Card.Body>
                             <Card.Title>Zach Lavine</Card.Title>
                             <Card.Text>
-                              This is a wider 
+                              Zach is interested in Travelling and Music
                         </Card.Text>
                           </Card.Body>
                           <ListGroupItem>Facebook</ListGroupItem>

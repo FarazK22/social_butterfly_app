@@ -3,8 +3,8 @@ h1 {
 }
 
 p {
-  font-size: 24px;
-  color: #e09;
+  font-size: 20px;
+  color: rgb(58, 56, 57);
 }
 
 .background {
@@ -13,7 +13,7 @@ p {
   background-color: #1C8EF9;
   color: #333;
   display: inline-block;
-  font-family: monospace;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 32px;
   text-align: center;
 }
@@ -30,6 +30,8 @@ p {
 
 .profileinfo {
   margin-left: 30px;
+  margin-top: 10px;
+  box-shadow: 10px px 10px red;
 }
 
 .friendbanner {
