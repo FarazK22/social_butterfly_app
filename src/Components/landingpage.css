@@ -19,21 +19,22 @@ p {
 }
 
 .profilepic {
-  width: 300px;
+  width: 350px;
   position: relative;
 
 }
 
 .profilebanner {
-  margin-left: -300px;
+  margin-left: -400px;
 }
 
 .profileinfo {
-  margin-left: 5px;
+  margin-left: 30px;
 }
 
 .friendbanner {
   margin-top: -420px;
+  position: static;
 }
 
 .friendProfile1 {
