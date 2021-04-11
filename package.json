@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
     "@syncfusion/ej2-layouts": "^19.1.55",
     "@syncfusion/ej2-react-grids": "^19.1.55",
     "@testing-library/jest-dom": "^5.11.10",

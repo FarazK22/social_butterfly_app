@@ -152,10 +152,8 @@ class LandingPage extends Component {
           </div>
         </Container>
       </div>
-
     )
   }
-
 }
 
-export default LandingPage
+export default LandingPage;
