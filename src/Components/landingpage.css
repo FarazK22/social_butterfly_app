@@ -10,7 +10,7 @@ p {
 .background {
   padding: 500px;
   margin: -350px;
-  background-color: #ffde00;
+  background-color: #1C8EF9;
   color: #333;
   display: inline-block;
   font-family: monospace;
@@ -29,13 +29,19 @@ p {
 }
 
 .profileinfo {
-  margin-left: -300px;
+  margin-left: 5px;
+}
+
+.friendbanner {
+  margin-top: -420px;
 }
 
 .friendProfile1 {
-  margin-left: 600px;
+  margin-left: 200px;
+
 }
 
 .friendProfile2 {
-  margin-left: 600px;
+  margin-top: 50px;
+  margin-left: 200px;
 }
