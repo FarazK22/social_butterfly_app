@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import {Link } from "react-router-dom";
+import CardDeck from 'react-bootstrap/CardDeck'
+import Card from 'react-bootstrap/Card'
 import "./login.css"
 
 
@@ -35,7 +37,15 @@ export default class Login extends Component {
                   </p>
               </form>
             </div>
+          <div className = "welcomeBox">
+          <Card>
+           <Card.Body>
+            Socia-fy is meant to connect you with friends nearby you with similar interests. Begin by creating an account and filling out your interests. Next, you'll see other users near you and ways you can connect to them!
+           </Card.Body>
+          </Card>
           </div>
+          </div>
+
         );
     }
 }

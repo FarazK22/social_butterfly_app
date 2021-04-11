@@ -24,6 +24,11 @@ body {
   transition: all .3s;
 }
 
+.welcomeBox {
+  textAlign: center;
+
+}
+
 .auth-wrapper .form-control:focus {
   border-color: #ffffff;
   box-shadow: none;
