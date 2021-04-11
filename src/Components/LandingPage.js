@@ -118,8 +118,7 @@ class LandingPage extends Component {
                           <Card.Body>
                             <Card.Title>Alexander Caruso</Card.Title>
                             <Card.Text>
-                              This is a wider card with supporting text below as a natural lead-in to
-                              additional content.
+                              Alex is interested in Travelling
                         </Card.Text>
                           </Card.Body>
                             <div>
@@ -193,7 +192,6 @@ class LandingPage extends Component {
                             <Card.Title>Zach Lavine</Card.Title>
                             <Card.Text>
                               Zach is interested in Travelling and Music
-                              This is a wider
                         </Card.Text>
                           </Card.Body>
                             <div>
