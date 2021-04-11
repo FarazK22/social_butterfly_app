@@ -5,8 +5,19 @@ import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 import faraz from "./tokyobackground.jpg";
+
+import zion from "./ZION.jpg";
+import kyle from "./GOAT.jpg";
+import zach from "./LAVINE.jpeg";
+import lebron from "./LEBRON.jpg";
+import alex from "./MAMBA.png";
+import stephen from "./STEPH.jpg";
+
 import CardDeck from 'react-bootstrap/CardDeck'
 import Card from 'react-bootstrap/Card'
+import ListGroup from 'react-bootstrap/Card'
+import ListGroupItem from 'react-bootstrap/Card'
+
 
 
 
@@ -36,7 +47,6 @@ class LandingPage extends Component {
                     <Card.Header>Your friends</Card.Header>
                     <Card.Body>
                       <Card.Text>
-                        Add friends names here
                     </Card.Text>
                     </Card.Body>
                   </Card>
@@ -53,41 +63,53 @@ class LandingPage extends Component {
                     <Col>
                       <CardDeck>
                         <Card>
-                          <Card.Img variant="top" src={faraz} />
+                          <Card.Img variant="top" src={zion} />
                           <Card.Body>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title>Zion Williamson</Card.Title>
                             <Card.Text>
-                              This is a wider card with supporting text below as a natural lead-in to
-                              additional content. This content is a little bit longer.
-              </Card.Text>
+                              ioasjodijadoj
+                              
+                            </Card.Text>
                           </Card.Body>
+                          <ListGroup className="list-group-flush">
+                            <ListGroupItem>Facebook</ListGroupItem>
+                            <ListGroupItem>Instagram</ListGroupItem>
+                            <ListGroupItem>Twitter</ListGroupItem>
+                          </ListGroup>
+
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
                         </Card>
                         <Card>
-                          <Card.Img variant="top" src={faraz} />
+                          <Card.Img variant="top" src={stephen} />
                           <Card.Body>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title>Stephen Curry</Card.Title>
                             <Card.Text>
                               This card has supporting text below as a natural lead-in to additional
                         content.{' '}
                             </Card.Text>
                           </Card.Body>
+                          <ListGroupItem>Facebook</ListGroupItem>
+                            <ListGroupItem>Instagram</ListGroupItem>
+                            <ListGroupItem>Twitter</ListGroupItem>
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
                         </Card>
                         <Card>
-                          <Card.Img variant="top" src={faraz} />
+                          <Card.Img variant="top" src={alex} />
                           <Card.Body>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title>Alexander Caruso</Card.Title>
                             <Card.Text>
                               This is a wider card with supporting text below as a natural lead-in to
-                              additional content. This card has even longer content than the first to
-                              show that equal height action.
-              </Card.Text>
+                              additional content. 
+                        </Card.Text>
                           </Card.Body>
+
+                          <ListGroupItem>Facebook</ListGroupItem>
+                            <ListGroupItem>Instagram</ListGroupItem>
+                            <ListGroupItem>Twitter</ListGroupItem>
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
@@ -103,41 +125,47 @@ class LandingPage extends Component {
                     <Col>
                       <CardDeck>
                         <Card>
-                          <Card.Img variant="top" src={faraz} />
+                          <Card.Img variant="top" src={kyle} />
                           <Card.Body>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title>Kyle Lowry</Card.Title>
                             <Card.Text>
-                              This is a wider card with supporting text below as a natural lead-in to
-                              additional content. This content is a little bit longer.
+                              This is a wider card with supporting text below as a nat
                       </Card.Text>
                           </Card.Body>
+                          <ListGroupItem>Facebook</ListGroupItem>
+                            <ListGroupItem>Instagram</ListGroupItem>
+                            <ListGroupItem>Twitter</ListGroupItem>
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
                         </Card>
                         <Card>
-                          <Card.Img variant="top" src={faraz} />
+                          <Card.Img variant="top" src={lebron} />
                           <Card.Body>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title>Lebron James</Card.Title>
                             <Card.Text>
                               This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
+                              content.{' '}
                             </Card.Text>
                           </Card.Body>
+                          <ListGroupItem>Facebook</ListGroupItem>
+                            <ListGroupItem>Instagram</ListGroupItem>
+                            <ListGroupItem>Twitter</ListGroupItem>
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
                         </Card>
                         <Card>
-                          <Card.Img variant="top" src={faraz} />
+                          <Card.Img variant="top" src={zach} />
                           <Card.Body>
-                            <Card.Title>Card title</Card.Title>
+                            <Card.Title>Zach Lavine</Card.Title>
                             <Card.Text>
-                              This is a wider card with supporting text below as a natural lead-in to
-                              additional content. This card has even longer content than the first to
-                              show that equal height action.
-                      </Card.Text>
+                              This is a wider 
+                        </Card.Text>
                           </Card.Body>
+                          <ListGroupItem>Facebook</ListGroupItem>
+                          <ListGroupItem>Instagram</ListGroupItem>
+                          <ListGroupItem>Twitter</ListGroupItem>
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
