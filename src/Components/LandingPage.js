@@ -4,8 +4,12 @@ import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
+<<<<<<< HEAD
 import faraz from "./JACKIE.jpg";
 
+=======
+import faraz from "./tokyobackground.jpg";
+>>>>>>> 75c855ad0852bf2761ec47e17d567cab94c4549e
 import zion from "./ZION.jpg";
 import kyle from "./GOAT.jpg";
 import zach from "./LAVINE.jpeg";
@@ -17,6 +21,9 @@ import CardDeck from 'react-bootstrap/CardDeck'
 import Card from 'react-bootstrap/Card'
 import ListGroup from 'react-bootstrap/Card'
 import ListGroupItem from 'react-bootstrap/Card'
+import { AiFillInstagram } from "react-icons/ai"
+import { FaFacebookSquare, FaTwitter, } from "react-icons/fa"
+
 
 
 
@@ -26,13 +33,32 @@ class LandingPage extends Component {
     return (
       <div className="background">
         <Container>
-          <div className="profilebanner">
-            <Container>
-              <Row>
-                <Col>
-                  <div className='profilepic'>
-                    <Image src={faraz} thumbnail />
+            <div className="profilebanner">
+              <Container>
+                <Row>
+                  <Col>
+                    <div className='profilepic'>
+                      <Image src={faraz} thumbnail />
+                    </div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <div className= 'profileinfo'>
+                    <Card
+                      bg='dark'
+                      text='white'
+                      style={{ width: '18rem' }}
+                      className="mb-2"
+                    >
+                      <Card.Header>Your friends</Card.Header>
+                      <Card.Body>
+                        <Card.Text>
+                      </Card.Text>
+                      </Card.Body>
+                    </Card>
                   </div>
+<<<<<<< HEAD
                 </Col>
               </Row>
               <Row>
@@ -54,6 +80,10 @@ class LandingPage extends Component {
                 </div>
                 </Col>
               </Row>
+=======
+                  </Col>
+                </Row>
+>>>>>>> 75c855ad0852bf2761ec47e17d567cab94c4549e
             </Container>
           </div>
           <div className="friendbanner">
@@ -68,14 +98,23 @@ class LandingPage extends Component {
                           <Card.Body>
                             <Card.Title>Zion Williamson</Card.Title>
                             <Card.Text>
+<<<<<<< HEAD
                               Zion is interested in Music and Travelling
+=======
+                              ioasjodijadoj
+
+>>>>>>> 75c855ad0852bf2761ec47e17d567cab94c4549e
                             </Card.Text>
                           </Card.Body>
-                          <ListGroup className="list-group-flush">
-                            <ListGroupItem>Facebook</ListGroupItem>
-                            <ListGroupItem>Instagram</ListGroupItem>
-                            <ListGroupItem>Twitter</ListGroupItem>
-                          </ListGroup>
+                            <div>
+                              <AiFillInstagram />
+                            </div>
+                            <div>
+                              <FaTwitter />
+                            </div>
+                            <div>
+                              <FaFacebookSquare />
+                            </div>
 
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
@@ -89,9 +128,15 @@ class LandingPage extends Component {
                              Stephen is interested in Sports
                             </Card.Text>
                           </Card.Body>
-                          <ListGroupItem>Facebook</ListGroupItem>
-                            <ListGroupItem>Instagram</ListGroupItem>
-                            <ListGroupItem>Twitter</ListGroupItem>
+                            <div>
+                              <AiFillInstagram />
+                            </div>
+                            <div>
+                              <FaTwitter />
+                            </div>
+                            <div>
+                              <FaFacebookSquare />
+                            </div>
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
@@ -101,6 +146,7 @@ class LandingPage extends Component {
                           <Card.Body>
                             <Card.Title>Alexander Caruso</Card.Title>
                             <Card.Text>
+<<<<<<< HEAD
                               Alex is interested in Travelling
                         </Card.Text>
                           </Card.Body>
@@ -108,6 +154,21 @@ class LandingPage extends Component {
                             <ListGroupItem>Facebook</ListGroupItem>
                             <ListGroupItem>Instagram</ListGroupItem>
                             <ListGroupItem>Twitter</ListGroupItem>
+=======
+                              This is a wider card with supporting text below as a natural lead-in to
+                              additional content.
+                        </Card.Text>
+                          </Card.Body>
+                            <div>
+                              <AiFillInstagram />
+                            </div>
+                            <div>
+                              <FaTwitter />
+                            </div>
+                            <div>
+                              <FaFacebookSquare />
+                            </div>
+>>>>>>> 75c855ad0852bf2761ec47e17d567cab94c4549e
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
@@ -130,9 +191,15 @@ class LandingPage extends Component {
                               Kyle is interested in Music and Sports
                       </Card.Text>
                           </Card.Body>
-                          <ListGroupItem>Facebook</ListGroupItem>
-                            <ListGroupItem>Instagram</ListGroupItem>
-                            <ListGroupItem>Twitter</ListGroupItem>
+                            <div>
+                              <AiFillInstagram />
+                            </div>
+                            <div>
+                              <FaTwitter />
+                            </div>
+                            <div>
+                              <FaFacebookSquare />
+                            </div>
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
@@ -145,9 +212,15 @@ class LandingPage extends Component {
                               Lebron is interested in Music, Sports, and Travelling
                             </Card.Text>
                           </Card.Body>
-                          <ListGroupItem>Facebook</ListGroupItem>
-                            <ListGroupItem>Instagram</ListGroupItem>
-                            <ListGroupItem>Twitter</ListGroupItem>
+                            <div>
+                              <AiFillInstagram />
+                            </div>
+                            <div>
+                              <FaTwitter />
+                            </div>
+                            <div>
+                              <FaFacebookSquare />
+                            </div>
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
@@ -157,12 +230,22 @@ class LandingPage extends Component {
                           <Card.Body>
                             <Card.Title>Zach Lavine</Card.Title>
                             <Card.Text>
+<<<<<<< HEAD
                               Zach is interested in Travelling and Music
+=======
+                              This is a wider
+>>>>>>> 75c855ad0852bf2761ec47e17d567cab94c4549e
                         </Card.Text>
                           </Card.Body>
-                          <ListGroupItem>Facebook</ListGroupItem>
-                          <ListGroupItem>Instagram</ListGroupItem>
-                          <ListGroupItem>Twitter</ListGroupItem>
+                            <div>
+                              <AiFillInstagram />
+                            </div>
+                            <div>
+                              <FaTwitter />
+                            </div>
+                            <div>
+                              <FaFacebookSquare />
+                            </div>
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>

@@ -19,24 +19,32 @@ p {
 }
 
 .profilepic {
-  width: 350px;
+  width: 300px;
   position: relative;
 
 }
 
+.title {
+  font-size: 24px;
+  color: #ffffff;
+}
+
 .profilebanner {
-  margin-left: -400px;
+  margin-left: -300px;
 }
 
 .profileinfo {
+<<<<<<< HEAD
   margin-left: 30px;
   margin-top: 10px;
   box-shadow: 10px px 10px red;
+=======
+  margin-left: 5px;
+>>>>>>> 75c855ad0852bf2761ec47e17d567cab94c4549e
 }
 
 .friendbanner {
   margin-top: -420px;
-  position: static;
 }
 
 .friendProfile1 {
