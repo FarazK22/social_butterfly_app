@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 import faraz from "./tokyobackground.jpg";
-
 import zion from "./ZION.jpg";
 import kyle from "./GOAT.jpg";
 import zach from "./LAVINE.jpeg";
@@ -17,6 +16,9 @@ import CardDeck from 'react-bootstrap/CardDeck'
 import Card from 'react-bootstrap/Card'
 import ListGroup from 'react-bootstrap/Card'
 import ListGroupItem from 'react-bootstrap/Card'
+import { AiFillInstagram } from "react-icons/ai"
+import { FaFacebookSquare, FaTwitter, } from "react-icons/fa"
+
 
 
 
@@ -26,33 +28,33 @@ class LandingPage extends Component {
     return (
       <div className="background">
         <Container>
-          <div className="profilebanner">
-            <Container>
-              <Row>
-                <Col>
-                  <div className='profilepic'>
-                    <Image src={faraz} thumbnail />
+            <div className="profilebanner">
+              <Container>
+                <Row>
+                  <Col>
+                    <div className='profilepic'>
+                      <Image src={faraz} thumbnail />
+                    </div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <div className= 'profileinfo'>
+                    <Card
+                      bg='dark'
+                      text='white'
+                      style={{ width: '18rem' }}
+                      className="mb-2"
+                    >
+                      <Card.Header>Your friends</Card.Header>
+                      <Card.Body>
+                        <Card.Text>
+                      </Card.Text>
+                      </Card.Body>
+                    </Card>
                   </div>
-                </Col>
-              </Row>
-              <Row>
-                <Col>
-                <div className= 'profileinfo'>
-                  <Card
-                    bg='dark'
-                    text='white'
-                    style={{ width: '18rem' }}
-                    className="mb-2"
-                  >
-                    <Card.Header>Your friends</Card.Header>
-                    <Card.Body>
-                      <Card.Text>
-                    </Card.Text>
-                    </Card.Body>
-                  </Card>
-                </div>
-                </Col>
-              </Row>
+                  </Col>
+                </Row>
             </Container>
           </div>
           <div className="friendbanner">
@@ -68,14 +70,18 @@ class LandingPage extends Component {
                             <Card.Title>Zion Williamson</Card.Title>
                             <Card.Text>
                               ioasjodijadoj
-                              
+
                             </Card.Text>
                           </Card.Body>
-                          <ListGroup className="list-group-flush">
-                            <ListGroupItem>Facebook</ListGroupItem>
-                            <ListGroupItem>Instagram</ListGroupItem>
-                            <ListGroupItem>Twitter</ListGroupItem>
-                          </ListGroup>
+                            <div>
+                              <AiFillInstagram />
+                            </div>
+                            <div>
+                              <FaTwitter />
+                            </div>
+                            <div>
+                              <FaFacebookSquare />
+                            </div>
 
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
@@ -90,9 +96,15 @@ class LandingPage extends Component {
                         content.{' '}
                             </Card.Text>
                           </Card.Body>
-                          <ListGroupItem>Facebook</ListGroupItem>
-                            <ListGroupItem>Instagram</ListGroupItem>
-                            <ListGroupItem>Twitter</ListGroupItem>
+                            <div>
+                              <AiFillInstagram />
+                            </div>
+                            <div>
+                              <FaTwitter />
+                            </div>
+                            <div>
+                              <FaFacebookSquare />
+                            </div>
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
@@ -103,13 +115,18 @@ class LandingPage extends Component {
                             <Card.Title>Alexander Caruso</Card.Title>
                             <Card.Text>
                               This is a wider card with supporting text below as a natural lead-in to
-                              additional content. 
+                              additional content.
                         </Card.Text>
                           </Card.Body>
-
-                          <ListGroupItem>Facebook</ListGroupItem>
-                            <ListGroupItem>Instagram</ListGroupItem>
-                            <ListGroupItem>Twitter</ListGroupItem>
+                            <div>
+                              <AiFillInstagram />
+                            </div>
+                            <div>
+                              <FaTwitter />
+                            </div>
+                            <div>
+                              <FaFacebookSquare />
+                            </div>
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
@@ -132,9 +149,15 @@ class LandingPage extends Component {
                               This is a wider card with supporting text below as a nat
                       </Card.Text>
                           </Card.Body>
-                          <ListGroupItem>Facebook</ListGroupItem>
-                            <ListGroupItem>Instagram</ListGroupItem>
-                            <ListGroupItem>Twitter</ListGroupItem>
+                            <div>
+                              <AiFillInstagram />
+                            </div>
+                            <div>
+                              <FaTwitter />
+                            </div>
+                            <div>
+                              <FaFacebookSquare />
+                            </div>
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
@@ -148,9 +171,15 @@ class LandingPage extends Component {
                               content.{' '}
                             </Card.Text>
                           </Card.Body>
-                          <ListGroupItem>Facebook</ListGroupItem>
-                            <ListGroupItem>Instagram</ListGroupItem>
-                            <ListGroupItem>Twitter</ListGroupItem>
+                            <div>
+                              <AiFillInstagram />
+                            </div>
+                            <div>
+                              <FaTwitter />
+                            </div>
+                            <div>
+                              <FaFacebookSquare />
+                            </div>
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
@@ -160,12 +189,18 @@ class LandingPage extends Component {
                           <Card.Body>
                             <Card.Title>Zach Lavine</Card.Title>
                             <Card.Text>
-                              This is a wider 
+                              This is a wider
                         </Card.Text>
                           </Card.Body>
-                          <ListGroupItem>Facebook</ListGroupItem>
-                          <ListGroupItem>Instagram</ListGroupItem>
-                          <ListGroupItem>Twitter</ListGroupItem>
+                            <div>
+                              <AiFillInstagram />
+                            </div>
+                            <div>
+                              <FaTwitter />
+                            </div>
+                            <div>
+                              <FaFacebookSquare />
+                            </div>
                           <Card.Footer>
                             <a href="#" class="btn btn-primary">Add Friend</a>
                           </Card.Footer>
