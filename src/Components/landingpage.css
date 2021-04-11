@@ -9,11 +9,33 @@ p {
 
 .background {
   padding: 500px;
-  margin: 10px;
+  margin: -350px;
   background-color: #ffde00;
   color: #333;
   display: inline-block;
   font-family: monospace;
   font-size: 32px;
   text-align: center;
+}
+
+.profilepic {
+  width: 300px;
+  position: relative;
+
+}
+
+.profilebanner {
+  margin-left: -500px;
+}
+
+.profileinfo {
+  margin-left: -400px;
+}
+
+.friendProfile1 {
+  margin-left: 600px;
+}
+
+.friendProfile2 {
+  margin-left: 600px;
 }
